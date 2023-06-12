@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado>
+  <nombre>Supermercado A</nombre>
+  <direccion>Calle Principal 123, Ciudad</direccion>
+  <geolocalizacion>
+    <latitud>12.3456</latitud>
+    <longitud>-78.9012</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>2023-05-01 a 2023-05-31</periodo_vigencia>
+      <unidad_medida>litros</unidad_medida>
+      <precio>1.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pan</nombre>
+      <oferta>false</oferta>
+      <unidad_medida>unidades</unidad_medida>
+      <precio>0.99</precio>
+      <adquirido>true</adquirido>
+    </producto>
+  </productos>
+</supermercado>

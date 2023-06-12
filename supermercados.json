@@ -1,0 +1,80 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado A",
+      "direccion": "Calle Principal 123, Ciudad",
+      "geolocalizacion": {
+        "latitud": 12.3456,
+        "longitud": -78.9012
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodo_vigencia": "2023-05-01 a 2023-05-31",
+          "unidad_medida": "litros",
+          "precio": 1.99,
+          "adquirido": false
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "unidad_medida": "unidades",
+          "precio": 0.99,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado B",
+      "direccion": "Avenida Secundaria 456, Ciudad",
+      "geolocalizacion": {
+        "latitud": 12.3456,
+        "longitud": -78.9012
+      },
+      "productos": [
+        {
+          "nombre": "Arroz",
+          "oferta": true,
+          "periodo_vigencia": "2023-05-01 a 2023-05-31",
+          "unidad_medida": "kilogramos",
+          "precio": 0.89,
+          "adquirido": false
+        },
+        {
+          "nombre": "Salchichas",
+          "oferta": false,
+          "unidad_medida": "paquetes",
+          "precio": 2.49,
+          "adquirido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado C",
+      "direccion": "Avenida Principal 789, Ciudad",
+      "geolocalizacion": {
+        "latitud": 12.3456,
+        "longitud": -78.9012
+      },
+      "productos": [
+        {
+          "nombre": "Manzanas",
+          "oferta": true,
+          "periodo_vigencia": "2023-05-01 a 2023-05-31",
+          "unidad_medida": "kilogramos",
+          "precio": 1.49,
+          "adquirido": true
+        },
+        {
+          "nombre": "Pasta",
+          "oferta": true,
+          "periodo_vigencia": "2023-05-01 a 2023-05-31",
+          "unidad_medida": "paquetes",
+          "precio": 1.29,
+          "adquirido": true
+        }
+      ]
+    }
+  ]
+}
